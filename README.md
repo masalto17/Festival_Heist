@@ -31,6 +31,7 @@ La prioridad de negocio se conserva en este orden:
 
 - `Festival_Heist_Especificacion_v3_1.md`: especificacion funcional y tecnica original del MVP.
 - `docs/MVP_ACTUALIZADO.md`: alcance recomendado para desarrollo, con decisiones incorporadas desde las auditorias y presentaciones.
+- `docs/PLAN_MARKETING_SEO_EMPRESARIAL.md`: plan de marketing, SEO empresarial, alianzas, integraciones y acciones 30/60/90 dias.
 - `FUENTES.md`: registro de fuentes aprobadas y criterios de uso.
 - `entregables/Informe_Comercial_y_Monetizacion_Festival_Heist.md`: analisis comercial interno.
 - `entregables/Auditoria_CEO_Festival_Heist_Productora_Aliada.md`: auditoria ejecutiva para alianza con productoras.

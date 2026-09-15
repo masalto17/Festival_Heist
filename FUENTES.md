@@ -28,6 +28,12 @@ Este archivo registra documentos usados como referencia del proyecto. El conteni
   - Fecha: septiembre 2026.
   - Uso previsto: definir oportunidades comerciales, sponsorship, medicion, paneles y requisitos comerciales minimos para el MVP.
 
+- `docs/PLAN_MARKETING_SEO_EMPRESARIAL.md`
+  - Tipo: plan estrategico interno.
+  - Fecha: 2026-09-15.
+  - Uso previsto: coordinar SEO empresarial, marketing, alianzas, integraciones, objetivos, FODA, canales, KPIs y acciones 30/60/90 dias.
+  - Restriccion: sus metas son objetivos de validacion, no resultados obtenidos ni promesas comerciales.
+
 - `entregables/Festival_Heist_Productora_Aliada.pptx`
   - Tipo: presentacion aprobada editable.
   - Audiencia: productoras y artistas aliados.
