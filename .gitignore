@@ -1,0 +1,23 @@
+# Dependencias y builds futuros
+node_modules/
+.next/
+dist/
+build/
+.vercel/
+.env
+.env.*
+!.env.example
+
+# Sistema
+.DS_Store
+
+# Renders intermedios de revision visual
+Festival_Heist_Productora_Aliada.pptx
+entregables/qa-v2/
+entregables/qa-comercial/
+entregables/slide-*.jpg
+entregables/QA_grilla_slides.jpg
+
+# Temporales
+*.tmp
+*.log

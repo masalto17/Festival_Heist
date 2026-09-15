@@ -1,0 +1,18 @@
+{
+  "project": "Festival Heist",
+  "audience": ["aliados comerciales", "sponsors", "inversores"],
+  "date": "2026-09-15",
+  "hero_artifacts": [
+    "Festival_Heist_Aliados_Comerciales_Inversores.pptx",
+    "Festival_Heist_Aliados_Comerciales_Inversores.pdf"
+  ],
+  "companion_artifacts": [
+    "Informe_Comercial_y_Monetizacion_Festival_Heist.md"
+  ],
+  "support_artifacts": [
+    "generar_presentacion_comercial_festival_heist.js",
+    "QA_grilla_presentacion_comercial.jpg"
+  ],
+  "source_of_truth": "../Festival_Heist_Especificacion_v3_1.md",
+  "status": "Commercial hypotheses and conceptual mockups; no represented traction, revenue, sponsors, or investment commitments."
+}
