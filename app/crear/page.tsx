@@ -116,7 +116,11 @@ export default function Crear() {
               </div>
             )}
 
-            <PunkButton variant="lime" onClick={() => irA(2)} className={!lineupCompleto ? "opacity-40 pointer-events-none" : ""}>
+            <PunkButton
+              variant="lime"
+              onClick={() => lineupCompleto && irA(2)}
+              disabled={!lineupCompleto}
+            >
               Seguir
             </PunkButton>
           </section>
@@ -184,8 +188,8 @@ export default function Crear() {
 
             <PunkButton
               variant="lime"
-              onClick={() => irA(4)}
-              className={!respuestasCompletas ? "opacity-40 pointer-events-none" : ""}
+              onClick={() => respuestasCompletas && irA(4)}
+              disabled={!respuestasCompletas}
             >
               Seguir
             </PunkButton>
