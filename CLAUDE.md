@@ -6,12 +6,36 @@ Estado: handoff para construir el MVP local.
 ## Prioridad de lectura
 
 1. `docs/MVP_ACTUALIZADO.md`
-2. `docs/CHECKLIST_PREPILOTO.md`
-3. `README.md`
-4. `FUENTES.md`
-5. `Festival_Heist_Especificacion_v3_1.md` solo como referencia historica
+2. `docs/GOBIERNO_PROYECTO_CODEX_CLAUDE.md`
+3. `docs/LINEAMIENTO_ESTETICO_BASE.md`
+4. `docs/HANDOFF_IMPLEMENTACION_ESTETICA_CLAUDE.md`
+5. `docs/CHECKLIST_QA_ESTETICA.md`
+6. `docs/CHECKLIST_PREPILOTO.md`
+7. `README-DEV.md`
+8. `README.md`
+9. `FUENTES.md`
+10. `Festival_Heist_Especificacion_v3_1.md` solo como referencia historica
 
 Si hay contradiccion, seguir `docs/MVP_ACTUALIZADO.md` y pedir confirmacion antes de incorporar una funcion mas compleja.
+Si la contradiccion es visual o de experiencia, seguir `docs/LINEAMIENTO_ESTETICO_BASE.md` y `docs/HANDOFF_IMPLEMENTACION_ESTETICA_CLAUDE.md`.
+
+## Modelo de trabajo
+
+Claude queda a cargo del desarrollo completo. Codex queda a cargo de supervision, control y planificacion.
+
+Para iniciar nuevas tareas de desarrollo, usar como prompt operativo:
+
+- `docs/PROMPT_MAESTRO_CLAUDE_DESARROLLO.md`
+
+Antes de programar, declarar explicitamente:
+
+1. que archivos de instrucciones fueron leidos;
+2. que archivos de codigo se van a tocar;
+3. que queda fuera de alcance;
+4. criterio de aceptacion;
+5. validaciones a correr.
+
+No asumir contexto no documentado. Si una referencia indicada no puede leerse, frenar y reportarlo.
 
 ## Que construir primero
 
@@ -103,9 +127,11 @@ Los eventos deben ser append-only y deben evitar datos personales crudos en `met
 
 Referencias visuales:
 
-- `entregables/assets/mockups/mockup-crear-festival.png`
-- `entregables/assets/mockups/mockup-desafio-social.png`
-- `entregables/assets/mockups/mockup-panel-aliado.png`
+- Principal para producto real: `entregables/assets/estetica/festival-heist-direccion-principal-D.png`
+- Secundaria para componentes de desafio: `entregables/assets/estetica/festival-heist-componentes-desafio-B.png`
+- Referencias historicas, no obligatorias: `entregables/assets/mockups/mockup-crear-festival.png`, `entregables/assets/mockups/mockup-desafio-social.png`, `entregables/assets/mockups/mockup-panel-aliado.png`
+
+No redisenar libremente la identidad visual. La implementacion debe mantenerse dentro de la direccion "Backstage punk pulido" definida en `docs/LINEAMIENTO_ESTETICO_BASE.md`.
 
 ## Criterio de listo local
 
