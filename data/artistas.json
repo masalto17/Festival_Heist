@@ -1,6 +1,32 @@
 {
-  "_comment": "Precarga curada — placeholder. Reemplazar antes del piloto (~150 nombres reales).",
-  "internacionales": [],
-  "argentinos": [],
+  "_comment": "Precarga curada — placeholder de desarrollo (~24 nombres). Reemplazar antes del piloto por el pool final (~150 nombres). Son nombres reales de artistas conocidos usados solo como texto (sin imagen/logo) para el lineup fantasia del usuario — no implica auspicio ni relacion comercial, a diferencia del pool de emergentes que si requiere autorizacion.",
+  "internacionales": [
+    { "id": "int-01", "name": "Bad Bunny", "genre": "reggaeton" },
+    { "id": "int-02", "name": "Dua Lipa", "genre": "pop" },
+    { "id": "int-03", "name": "Coldplay", "genre": "rock" },
+    { "id": "int-04", "name": "Rosalía", "genre": "urbano" },
+    { "id": "int-05", "name": "Tame Impala", "genre": "indie" },
+    { "id": "int-06", "name": "Daft Punk", "genre": "electronica" },
+    { "id": "int-07", "name": "The Strokes", "genre": "rock" },
+    { "id": "int-08", "name": "Karol G", "genre": "reggaeton" },
+    { "id": "int-09", "name": "Arctic Monkeys", "genre": "indie" },
+    { "id": "int-10", "name": "Metallica", "genre": "metal" },
+    { "id": "int-11", "name": "Billie Eilish", "genre": "pop" },
+    { "id": "int-12", "name": "Kendrick Lamar", "genre": "urbano" }
+  ],
+  "argentinos": [
+    { "id": "arg-01", "name": "Duki", "genre": "urbano" },
+    { "id": "arg-02", "name": "Bizarrap", "genre": "electronica" },
+    { "id": "arg-03", "name": "La Renga", "genre": "rock" },
+    { "id": "arg-04", "name": "Nathy Peluso", "genre": "urbano" },
+    { "id": "arg-05", "name": "Babasónicos", "genre": "indie" },
+    { "id": "arg-06", "name": "Damas Gratis", "genre": "cumbia" },
+    { "id": "arg-07", "name": "Trueno", "genre": "urbano" },
+    { "id": "arg-08", "name": "Soda Stereo", "genre": "rock" },
+    { "id": "arg-09", "name": "Nicki Nicole", "genre": "pop" },
+    { "id": "arg-10", "name": "Ca7riel & Paco Amoroso", "genre": "urbano" },
+    { "id": "arg-11", "name": "Los Ángeles Azules", "genre": "cumbia" },
+    { "id": "arg-12", "name": "Divididos", "genre": "rock" }
+  ],
   "generos": ["rock", "cumbia", "urbano", "folclore", "electronica", "pop", "indie", "reggaeton", "metal", "jazz", "otros"]
 }

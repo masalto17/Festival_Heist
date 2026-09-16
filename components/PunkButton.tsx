@@ -18,21 +18,32 @@ type Props = {
   onClick?: () => void;
   type?: "button" | "submit";
   className?: string;
+  disabled?: boolean;
 };
 
-export function PunkButton({ children, variant = "magenta", href, onClick, type = "button", className = "" }: Props) {
-  const classes = `inline-flex w-full items-center justify-center gap-2 rounded-md px-6 py-4 font-display text-lg uppercase tracking-wide transition active:scale-95 ${VARIANT_CLASSES[variant]} ${className}`;
+export function PunkButton({
+  children,
+  variant = "magenta",
+  href,
+  onClick,
+  type = "button",
+  className = "",
+  disabled = false
+}: Props) {
+  const classes = `inline-flex w-full items-center justify-center gap-2 rounded-md px-6 py-4 font-display text-lg uppercase tracking-wide transition active:scale-95 ${VARIANT_CLASSES[variant]} ${
+    disabled ? "opacity-40 pointer-events-none" : ""
+  } ${className}`;
 
   if (href) {
     return (
-      <Link href={href} className={classes}>
+      <Link href={href} className={classes} aria-disabled={disabled}>
         {children}
       </Link>
     );
   }
 
   return (
-    <button type={type} onClick={onClick} className={classes}>
+    <button type={type} onClick={onClick} disabled={disabled} className={classes}>
       {children}
     </button>
   );
