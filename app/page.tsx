@@ -4,7 +4,7 @@ import { TapeLabel } from "@/components/TapeLabel";
 
 export default function Home() {
   return (
-    <main className="bg-grain mx-auto flex min-h-dvh max-w-md flex-col items-center justify-between bg-bg px-6 py-10 text-center">
+    <main className="bg-grain bg-landing-backstage mx-auto flex min-h-dvh max-w-md flex-col items-center justify-between px-6 py-10 text-center">
       <header className="z-10 w-full pt-4">
         <TapeLabel>MVP en preparación</TapeLabel>
       </header>
