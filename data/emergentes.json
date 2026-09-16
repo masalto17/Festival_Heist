@@ -1,0 +1,26 @@
+{
+  "_comment": "Espejo local de supabase/seed.sql para desarrollo frontend sin conexion a Supabase todavia. Cuando Etapa F conecte la API real, este archivo deja de usarse. No cambiar los nombres sin cambiar tambien el seed SQL.",
+  "artistas": [
+    {
+      "id": "vera-onda",
+      "name": "Vera Onda",
+      "genre": "indie",
+      "origin": "Córdoba, Argentina",
+      "tagline": "Nuevos sonidos, grandes historias"
+    },
+    {
+      "id": "turba-kolectiva",
+      "name": "Turba Kolectiva",
+      "genre": "cumbia",
+      "origin": "Buenos Aires, Argentina",
+      "tagline": "Sumalo al lineup"
+    },
+    {
+      "id": "nico-fierro",
+      "name": "Nico Fierro",
+      "genre": "urbano",
+      "origin": "Rosario, Argentina",
+      "tagline": "Más escenarios para más artistas"
+    }
+  ]
+}
