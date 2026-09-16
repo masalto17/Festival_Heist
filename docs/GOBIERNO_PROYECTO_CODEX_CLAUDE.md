@@ -66,6 +66,7 @@ Si Claude no puede leer una referencia indicada, debe frenar y reportarlo. No pu
 4. `entregables/assets/estetica/festival-heist-direccion-principal-D.png`
 5. `entregables/assets/estetica/festival-heist-componentes-desafio-B.png`
 6. `entregables/assets/estetica/festival-heist-referencia-flujo-wizard-codex.png` — referencia de composicion y densidad visual para el wizard (Etapa C), poster y cartas de desafio. Manda la logica (backstage fisico + flujo jugable + poster como recompensa), no los textos ni el layout literal si no coinciden con el MVP aprobado.
+7. `entregables/assets/estetica/festival-heist-referencia-poster-etapa-d-codex.png` — direccion aprobada para el poster compartible (Etapa D): 3 slots de lineup con etiqueta de color por rol (magenta/lima/cian), slot de emergente en naranja debajo, CTA "Compartir poster" y "Ver desafio", mas variantes de exportacion (historia 9:16, cuadrado 1:1, link de desafio). Manda composicion y jerarquia visual, no artistas ni copys literales fuera del MVP.
 
 ### Claims, marketing y riesgo comercial
 
