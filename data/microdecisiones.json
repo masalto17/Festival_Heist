@@ -1,0 +1,8 @@
+{
+  "_comment": "Tres microdecisiones para el desafio. Placeholder — revisar copy con Codex.",
+  "preguntas": [
+    { "id": "clima", "texto": "¿Cómo empieza la noche?", "opciones": ["Atardecer suave", "Neón directo", "Lluvia y humo"] },
+    { "id": "bebida", "texto": "Bebida oficial del festival", "opciones": ["Fernet", "Cerveza artesanal", "Agua con gas"] },
+    { "id": "final", "texto": "Cómo termina la noche", "opciones": ["Todos coreando", "Baile hasta las 6", "En silencio, mirando el amanecer"] }
+  ]
+}
