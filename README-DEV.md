@@ -64,6 +64,23 @@ Ver `CLAUDE.md` en la raíz. Resumen:
 - Emergentes solo con autorización escrita.
 - `noindex` en `/p/*` y `/d/*` durante piloto.
 
+## Reglas visuales no negociables
+
+La direccion estetica aprobada vive en:
+
+- `docs/GOBIERNO_PROYECTO_CODEX_CLAUDE.md`
+- `docs/LINEAMIENTO_ESTETICO_BASE.md`
+- `docs/HANDOFF_IMPLEMENTACION_ESTETICA_CLAUDE.md`
+- `docs/CHECKLIST_QA_ESTETICA.md`
+
+Referencias obligatorias:
+
+- `entregables/assets/estetica/festival-heist-direccion-principal-D.png`
+- `entregables/assets/estetica/festival-heist-componentes-desafio-B.png`
+
+Para iniciar una tarea visual con Claude, usar `docs/PROMPT_CLAUDE_IMPLEMENTACION_ESTETICA.md`.
+Para iniciar una tarea general de desarrollo con Claude, usar `docs/PROMPT_MAESTRO_CLAUDE_DESARROLLO.md`.
+
 ## Roadmap del código
 
 - Etapa 0: scaffolding (rama `feat/mvp-scaffold`) ← **acá estamos**
