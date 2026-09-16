@@ -18,9 +18,21 @@ body { -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; 
     inset: 0;
     pointer-events: none;
     z-index: 1;
-    opacity: 0.12;
-    mix-blend-mode: overlay;
+    /* screen, no overlay: overlay sobre un fondo casi negro no altera nada (resultado siempre ~0) */
+    opacity: 0.05;
+    mix-blend-mode: screen;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+
+  /* Fondo backstage (Etapa B, opcion 3 aprobada) con velo oscuro para legibilidad del texto encima */
+  .bg-landing-backstage {
+    /* radial, no lineal: las esquinas del fondo traen recortes de poster con
+       caras — hay que aplastarlas a negro, no solo oscurecerlas parejo */
+    background-image:
+      radial-gradient(ellipse at center, rgba(8, 8, 10, 0.55) 0%, rgba(8, 8, 10, 0.94) 70%, rgba(8, 8, 10, 0.99) 100%),
+      url("/backgrounds/landing-backstage.webp");
+    background-size: cover;
+    background-position: center;
   }
 
   /* Papel de afiche/fotocopia para tarjetas y posters */

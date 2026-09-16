@@ -14,10 +14,7 @@ const config: Config = {
         cyan: "#25D7FF",
         "challenge-orange": "#FF6A2A",
         metal: "#5B5B62",
-        muted: "#8A8A8A",
-        // legacy — usados por app/page.tsx hasta Etapa B (landing)
-        ink: "#F5F5F4",
-        neon: { magenta: "#FF2E88", cian: "#22D3EE", lima: "#C6F432", amarillo: "#FDE047" }
+        muted: "#8A8A8A"
       },
       fontFamily: {
         display: ["var(--font-anton)", "system-ui", "sans-serif"],
