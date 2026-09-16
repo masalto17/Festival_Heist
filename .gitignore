@@ -21,3 +21,4 @@ entregables/QA_grilla_slides.jpg
 # Temporales
 *.tmp
 *.log
+*.tsbuildinfo
